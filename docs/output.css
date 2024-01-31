@@ -631,6 +631,14 @@ video {
   height: 100vh;
 }
 
+.h-dvh{
+  height: 100dvh;
+}
+
+.h-4\/6{
+  height: 66.666667%;
+}
+
 .w-10{
   width: 2.5rem;
 }
@@ -944,6 +952,10 @@ ion-icon {
 
   .md\:hidden{
     display: none;
+  }
+
+  .md\:h-screen{
+    height: 100vh;
   }
 
   .md\:grid-cols-3{
