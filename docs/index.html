@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SAKE MAMA</title>
+  <link rel="stylesheet" href="output.css">
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <link rel="icon" href="img/bomb.png">
+</head>
+
+<body class="h-screen justify-center items-center w-full bg-drinks bg-fixed bg-cover bg-bottom">
+  <nav class="bg-black/80 absolute w-full z-20 top-0 start-0">
+    <div class="md:hidden w-full flex">
+      <div class="flex w-full justify-normal items-center pl-4">
+        <button class="w-10 h-10 rounded-2xl flex items-center justify-center hover:bg-gray-900 transition duration-300 ease-in-out" id="open-sidebar">
+          <ion-icon name="menu-outline" class="text-2xl"></ion-icon>
+        </button>
+      </div>
+      <div class="w-full p-2 pr-4 flex justify-end">
+        <a target="_blank" href="https://www.facebook.com/SAKEMAMA.UGA/">
+          <button class="w-10 h-10 rounded-2xl flex items-center justify-center hover:bg-gray-900 transition duration-300 ease-in-out">
+            <ion-icon name="logo-facebook" class="text-2xl"></ion-icon>
+          </button>
+        </a>
+        <a target="_blank" href="https://www.instagram.com/sakemamauga/" class="ml-2">
+          <button class="w-10 h-10 rounded-2xl flex items-center justify-center hover:bg-gray-900 transition duration-300 ease-in-out">
+            <ion-icon name="logo-instagram" class="text-2xl"></ion-icon>
+          </button>
+        </a>
+      </div>
+    </div>
+    <div class="absolute bg-black/80 text-white w-full h-[30vh] overflow-y-auto transition-transform transform -translate-x-full ease-in-out duration-300"
+      id="sidebar">
+      <!-- Your Sidebar Content -->
+      <div class="p-4 h-full">
+        <ul class=" grid justify-center items-center h-full">
+            <li class="mb-2"><a href="#about" class="block hover:text-gray-400 justify-center text-center font-exo text-2xl">About</a></li>
+            <li class="mb-2"><a href="#menu" class="block hover:text-gray-400 justify-center text-center font-exo text-2xl">Menu</a></li>
+            <li class="mb-2"><a href="#contact" class="block hover:text-gray-400 justify-center text-center font-exo text-2xl">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="items-center hidden w-full md:flex">
+      <div class="flex items-center justify-start w-full">
+      <li class="lg:my-0">
+        <a href="#about" class="text-2xl lg:text-xl text-white hover:text-gray-400 duration-500 font-exo font-medium">About</a>
+      </li>
+      <li class="lg:my-0">
+        <a href="#menu" class="text-2xl lg:text-xl text-white hover:text-gray-400 duration-500 font-exo font-medium">Menu</a>
+      </li>
+      <li class="lg:my-0">
+        <a href="#contact" class="text-2xl lg:text-xl text-white hover:text-gray-400 duration-500 font-exo font-medium">Contact</a>
+      </li>
+      </div>
+      <div class="w-full p-2 pr-8 flex justify-end">
+        <a target="_blank" href="https://www.instagram.com/sakemamauga/">
+          <button class="w-10 h-10 rounded-2xl flex items-center justify-center hover:bg-gray-900 transition duration-300 ease-in-out">
+            <ion-icon name="logo-facebook" class="text-2xl"></ion-icon>
+          </button>
+        </a>
+        <a target="_blank" href="https://www.instagram.com/sakemamauga/" class="ml-2">
+          <button class="w-10 h-10 rounded-2xl flex items-center justify-center hover:bg-gray-900 transition duration-300 ease-in-out">
+            <ion-icon name="logo-instagram" class="text-2xl"></ion-icon>
+          </button>
+        </a>
+      </div>
+    </div>
+  </nav>
+  
+
+  <section class="h-screen relative max-w-screen-2xl mx-auto">
+    <div class="h-full flex w-full justify-center items-center bg-none">
+      <img src="img/sakeMAMAbombath.png" class="w-5/6 lg:w-1/2 drop-shadow-2xl">
+    </div>
+  </section>
+
+  <section class="bg-black/80" id="about">
+    <div class="h-auto w-full md:px-20 py-10 sm:py-20 justify-center text-center items-center block max-w-screen-2xl mx-auto">
+      <h2 class="text-white text-3xl md:text-4xl lg:text-5xl font-exo font-semibold">
+        Athens' Only Sake Bar
+      </h2>
+      <div class="flex justify-center items-center">
+        <hr class="w-3/4 sm:w-4/6 mt-3">
+      </div>
+      <p class="text-gray-200 pt-10 px-8 md:px-20 lg:px-40 sm:text-2xl font-exo">
+        Sake Mama is one of Athens' best bars for a late night in the classic city. Featuring a unique selection of sake bombs, a variety of bottled beers, and a live DJ with music mixed from our very own DJRX, there's something for everyone.
+      </p>
+    </div>
+    </div>
+  </section>
+
+  <section class="bg-black/80">
+    <div class="w-full h-auto justify-center items-center max-w-screen-2xl mx-auto relative">
+    <div class="h-0 pt-[56.25%]">
+      <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FSAKEMAMA.UGA%2Fvideos%2F2115144845174692%2F&show_text=false&width=560&t=0"
+      class="w-full h-full absolute top-0 md:px-24 px-2"
+      style="border:none;overflow:hidden;"
+      scrolling="no"
+      frameborder="0"
+      allowfullscreen="true"
+      allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true">
+    </iframe>
+    </div>
+    </div>
+  </section>
+
+  <section class="bg-black/80">
+    <div class="grid xs:grid-cols-2 xs:grid-rows-3 md:grid-cols-3 md:grid-rows-2 md:px-20 max-w-screen-2xl mx-auto justify-center items-center">
+    <div class="flex justify-center items-center">
+      <img src="img/sakeimg1.JPG" class="p-2">
+    </div>
+    <div class="flex justify-center items-center">
+      <img src="img/sakeimg2.JPG" class="p-2">
+    </div>
+    <div class="flex justify-center items-center">
+      <img src="img/sakeimg3.JPG" class="p-2">
+    </div>
+    <div class="flex justify-center items-center">
+      <img src="img/sakeimg4.JPG" class="p-2">
+    </div>
+    <div class="flex justify-center items-center">
+      <img src="img/sakeimg5.JPG" class="p-2">
+    </div>
+    <div class="flex justify-center items-center">
+      <img src="img/sakeimg6.JPG" class="p-2">
+    </div>
+    </div>
+  </section>
+
+  <section class="bg-black/80" id="menu">
+    <div class="h-auto w-full py-10 md:px-20 sm:py-20 justify-center text-center block max-w-screen-2xl mx-auto">
+    <h2 class="text-white text-3xl md:text-4xl lg:text-5xl font-exo font-semibold">
+      Weekly Specials
+    </h2>
+    <div class="flex justify-center items-center">
+      <hr class="w-3/4 sm:w-1/2 mt-3">
+    </div>
+    <div class="grid grid-cols-3 text-gray-200 pt-10 px-8 md:px-20 lg:px-40 sm:text-2xl font-exo">
+      <p>MONDAY - WEDNESDAY <br>  </p>
+      <p>THURSDAY</p>
+      <p>FRIDAY - SATURDAY</p>
+    </div>
+    </div>
+  </section>
+
+  <section class="bg-black/80">
+    <div class="grid xs:grid-cols-3 h-auto w-full md:px-20 max-w-screen-2xl mx-auto">
+    <div class="flex justify-center items-center p-2 sm:p-4 md:p-8">
+      <img src="img/sakemenu1.png" class="shadow-white shadow-2xl">
+    </div>
+    <div class="flex justify-center items-center p-2 sm:p-4 md:p-8">
+      <img src="img/sakemenu2.png" class="shadow-white shadow-2xl">
+    </div>
+    <div class="flex justify-center items-center p-2 sm:p-4 md:p-8">
+      <img src="img/sakemenu3.png" class="shadow-white shadow-2xl">
+    </div>
+    </div>
+  </section>
+
+  <section class="bg-black/80" id="contact">
+    <div class="grid sm:grid-cols-2 h-auto w-full md:px-20 justify-center items-center text-center max-w-screen-2xl mx-auto">
+      <div class="h-full grid justify-center items-center py-10 lg:py-20">
+        <h2 class="text-white text-3xl md:text-4xl lg:text-5xl font-exo font-semibold">
+          Contact Us
+        </h2>
+        <div class="flex justify-center items-center">
+          <hr class="w-3/4 mt-2">
+        </div>
+        <h2 class="text-gray-200 pt-2 lg:text-2xl font-exo flex justify-center items-center">
+          <ion-icon name="mail-outline"></ion-icon>&nbsp sakemamauga@gmail.com
+        </h2 class>
+        <h2 class="text-gray-200 pb-2 lg:text-2xl font-exo flex justify-center items-center">
+          or <br> DM us on Instagram!
+        </h2>
+        <h2 class="text-gray-200 py-2 lg:text-2xl font-exo flex justify-center items-center">
+          <ion-icon name="location-outline"></ion-icon>&nbsp 166 E Clayton St, Athens, GA 30601
+        </h2 class>
+        <h2 class="text-gray-200 py-2 lg:text-2xl font-exo flex justify-center items-center">
+        <ion-icon name="time-outline"></ion-icon>&nbsp Check our Instagram for our opening times!
+        </h2 class>
+        <div class="inline-flex justify-center items-center py-2">
+          <a target="_blank" href="https://www.facebook.com/SAKEMAMA.UGA/">
+            <button class="w-10 h-10 rounded-2xl flex items-center justify-center hover:bg-gray-900 transition duration-300 ease-in-out">
+              <ion-icon name="logo-facebook" class="text-2xl"></ion-icon>
+            </button>
+          </a>
+          <a target="_blank" href="https://www.instagram.com/sakemamauga/" class="ml-2">
+            <button class="w-10 h-10 rounded-2xl flex items-center justify-center hover:bg-gray-900 transition duration-300 ease-in-out">
+              <ion-icon name="logo-instagram" class="text-2xl"></ion-icon>
+            </button>
+          </a>
+        </div>
+      </div>
+    <div>
+      <img src="img/sakemap.png" class="px-2 sm:px-4 md:px-8">
+    </div>
+    </div>
+  </section>
+
+  <section class="h-auto w-full py-4 md:px-20 justify-center text-center bg-black/80 block">
+    <h2 class="text-white pt-10 font-exo">
+      Website created by <a href="https://abelureste.github.io/" target="_blank" class="underline underline-offset-2 decoration-1 hover:text-red-500">Abel Ureste</a>
+    </h2>
+  </section>
+
+  <script>
+    const sidebar = document.getElementById('sidebar');
+    const openSidebarButton = document.getElementById('open-sidebar');
+
+    openSidebarButton.addEventListener('click', (e) => {
+    e.stopPropagation();
+    sidebar.classList.toggle('-translate-x-full');
+    });
+
+    // Close the sidebar when clicking outside of it
+    document.addEventListener('click', (e) => {
+    if (!sidebar.contains(e.target) && !openSidebarButton.contains(e.target)) {
+        sidebar.classList.add('-translate-x-full');
+    }
+    });
+  </script>
+
+</body>
+</html>
