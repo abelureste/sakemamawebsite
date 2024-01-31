@@ -5,7 +5,8 @@ module.exports = {
     extend: {
       backgroundImage: {
         'drinksBW' : "url('/docs/img/sakemamadrinksBW.png')",
-        'drinks' : "url('https://raw.githubusercontent.com/abelureste/sakemamawebsite/master/docs/img/sakemamadrinks.png')"
+        'drinks' : "url('https://raw.githubusercontent.com/abelureste/sakemamawebsite/master/docs/img/sakemamadrinks.png')",
+        'drinksMOBILE' : "url('https://raw.githubusercontent.com/abelureste/sakemamawebsite/master/docs/img/sakeMAMAdrinksmobile.png')",
       },
       fontFamily: {
         'exo': ["Exo","sans-serif"],
